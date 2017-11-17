@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: contentManagerSystem
+Implementation-Version: beta-1.0.7.HEAD
+Built-By: Administrator
+Implementation-Vendor-Id: com.yxb.cms
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_144
+Main-Class: ${start-class}
+
