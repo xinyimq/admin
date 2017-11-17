@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: yixin
+  Date: 2017/11/17
+  Time: 14:36 /product/taocanlist.do
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="/comm/mytags.jsp" %>
 <!DOCTYPE html>
@@ -64,7 +71,7 @@
                     <div class="panel col">
                         <a href="javascript:;" data-url="page/user/allUsers.html">
                             <div class="panel_icon" style="background-color:#F7B824;">
-                            <i class="layui-icon" data-icon="&#xe613;">&#xe613;</i>
+                                <i class="layui-icon" data-icon="&#xe613;">&#xe613;</i>
                             </div>
                             <div class="panel_word waitNews">
                                 <span>0</span>
@@ -124,9 +131,9 @@
         base : "${ctx}/static/js/"
     }).use(['form','jquery','layer','common','element'],function() {
         $ = layui.$;
-              var  form = layui.form,
-                element = layui.element,
-                common = layui.common;
+        var  form = layui.form,
+            element = layui.element,
+            common = layui.common;
 
         var loading = layer.load(0,{ shade: [0.3,'#000']});
 
